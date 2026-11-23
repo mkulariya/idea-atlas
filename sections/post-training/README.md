@@ -10,7 +10,7 @@ _Last revised: not yet. The agent rewrites this paragraph (at most 250 words, da
 Generated from the idea files; highest power first.
 
 <!-- BEGIN:GENERATED -->
-_0 ideas filed here, 0 cross-listed from other sections._
+_3 ideas filed here, 0 cross-listed from other sections._
 
 ### sft-data
 _Supervised fine-tuning, instruction and synthetic data, data selection and mixing._
@@ -20,7 +20,8 @@ _No ideas yet._
 ### distillation
 _Distilling capabilities or reasoning from stronger models or from the model itself._
 
-_No ideas yet._
+- [PT-20261123-04](ideas/PT-20261123-04--one-token-student-cannot-produce-derail.md) **One token the student cannot produce can derail on-policy distillation** — In sampled-token on-policy distillation, a teacher-preferred token the student almost never samples (like a mismatched EOS) is never learned yet still distorts updates, lengthening and looping outputs while overlap stays high. · emerging · 79 · 2026-11-23
+- [PT-20261123-05](ideas/PT-20261123-05--route-low-coverage-states-forward-kl.md) **Route low-coverage states to forward KL during on-policy distillation** — Applying top-16 forward KL only at states where the student's mass on the teacher's top-p tokens is low, or teacher mass is underestimated, beats sampled-token on-policy distillation and blanket forward KL. · emerging · 76 · 2026-11-23
 
 ### preference-optimization
 _RLHF and preference objectives (DPO family and successors)._
@@ -30,7 +31,7 @@ _No ideas yet._
 ### rl-algorithms
 _Policy-optimization algorithms (PPO and GRPO variants), advantage estimation, credit assignment, entropy, exploration, off-policy and asynchronous RL._
 
-_No ideas yet._
+- [PT-20261123-03](ideas/PT-20261123-03--asking-yes-no-decision-model-per.md) **Asking a yes/no decision model per step gives label-free process rewards for agent RL** — Per step of every rollout, ask a probability-returning decision model whether the step made progress, standardise scores within the task's rollout group, and add them to GRPO advantages; ALFWorld success rises from 66.3% to 90.0%. · emerging · 78 · 2026-11-23
 
 ### reasoning-training
 _Training long chain-of-thought, controlling thinking length, training for test-time scaling._

@@ -10,12 +10,12 @@ _Last revised: not yet. The agent rewrites this paragraph (at most 250 words, da
 Generated from the idea files; highest power first.
 
 <!-- BEGIN:GENERATED -->
-_0 ideas filed here, 0 cross-listed from other sections._
+_4 ideas filed here, 0 cross-listed from other sections._
 
 ### architectures-scaffolds
 _Agent loops and system designs (planner-executor, reflection, routing, orchestration of a single agent)._
 
-_No ideas yet._
+- [AG-20261123-01](ideas/AG-20261123-01--judge-visual-agent-s-candidate-actions.md) **Judge a visual agent's candidate actions by drawing them on the screenshot** — Sample several actions from a frozen visual policy, draw each on its own screenshot copy, score them with a probability-returning judge, and override greedy only on a clear lead; no training needed. · emerging · 81 · 2026-11-23
 
 ### tool-use
 _Tool and function calling, tool selection, tool creation, tool protocols such as MCP._
@@ -30,7 +30,7 @@ _No ideas yet._
 ### memory-context
 _Long-horizon memory, context management, compression, retrieval memory, state tracking._
 
-_No ideas yet._
+- [AG-20261123-09](ideas/AG-20261123-09--agent-chosen-belief-state-folds-turn.md) **Agent-chosen belief-state folds turn long research runs into rubric-rewarded segments** — Letting a research agent rewrite its context into a four-field belief state at self-chosen checkpoints, then rewarding each resulting segment with an outcome-blind rubric plus validity gate, reaches 0.151 Brier on ForecastBench. · emerging · 72 · 2026-11-23
 
 ### coding-agents
 _Software-engineering and coding agents, repository-level work, debugging, code review._
@@ -65,12 +65,12 @@ _No ideas yet._
 ### agent-safety-security
 _Prompt injection, sandboxing, monitoring, oversight, reliability and misuse of agents._
 
-_No ideas yet._
+- [AG-20261123-02](ideas/AG-20261123-02--which-links-web-agent-clicks-leaks.md) **Which links a web agent clicks leaks its private context past content-level defenses** — A stateful attacker placing one link on a visited page reconstructs a web agent's private query (F1 0.89) and profile (F1 0.80) from which links it clicks; content filters do not help. · emerging · 85 · 2026-11-23
 
 ### agent-training
 _Training recipes specific to agents (trajectory data, agentic SFT, agent RL setups)._
 
-_No ideas yet._
+- [AG-20261123-06](ideas/AG-20261123-06--weights-fine-tuned-under-one-agent.md) **Weights fine-tuned under one agent harness collapse under another** — Weights fine-tuned on trajectories from their own evolved harness score 19.8% under that harness but 2.6% under a reference harness, so harness revisions reopen the training decision. · emerging · 79 · 2026-11-23
 
 ### other
 _Fits no subtopic above; review weekly._
