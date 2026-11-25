@@ -10,7 +10,7 @@ _Last revised: not yet. The agent rewrites this paragraph (at most 250 words, da
 Generated from the idea files; highest power first.
 
 <!-- BEGIN:GENERATED -->
-_4 ideas filed here, 0 cross-listed from other sections._
+_9 ideas filed here, 0 cross-listed from other sections._
 
 ### architectures-scaffolds
 _Agent loops and system designs (planner-executor, reflection, routing, orchestration of a single agent)._
@@ -20,7 +20,8 @@ _Agent loops and system designs (planner-executor, reflection, routing, orchestr
 ### tool-use
 _Tool and function calling, tool selection, tool creation, tool protocols such as MCP._
 
-_No ideas yet._
+- [AG-20261125-01](ideas/AG-20261125-01--agents-fabricate-ingesting-partial-tool-output.md) **Agents fabricate by ingesting partial tool output as valid, not by retrying** — Agents accept plausible but truncated tool results as valid on first contact, fabricating 38% of the time on partial-data faults, while agents that retry visibly failing calls usually report failure honestly. · emerging · 79 · 2026-11-25
+- [AG-20261125-10](ideas/AG-20261125-10--check-agent-s-answer-against-tool.md) **Check an agent's answer against its tool outputs in code before any LLM judge** — A monitor extracts the values an answer asserts, vetoes those absent from or not recomputable from tool outputs, and sends a corrective directive rather than a hard block, cutting fabrication from 17.3% to 10.8%. · emerging · 73 · 2026-11-25
 
 ### planning-search
 _Planning, lookahead, tree search and test-time compute over actions._
@@ -30,7 +31,8 @@ _No ideas yet._
 ### memory-context
 _Long-horizon memory, context management, compression, retrieval memory, state tracking._
 
-- [AG-20261123-09](ideas/AG-20261123-09--agent-chosen-belief-state-folds-turn.md) **Agent-chosen belief-state folds turn long research runs into rubric-rewarded segments** — Letting a research agent rewrite its context into a four-field belief state at self-chosen checkpoints, then rewarding each resulting segment with an outcome-blind rubric plus validity gate, reaches 0.151 Brier on ForecastBench. · emerging · 72 · 2026-11-23
+- [AG-20261125-07](ideas/AG-20261125-07--fold-every-past-attempt-expandable-digest.md) **Fold every past attempt into an expandable digest instead of summarizing history** — Digesting every past attempt so the agent can still expand any of them, plus deleting skills unused for five iterations, beat recency truncation on MLE-Bench and KernelBench across three backbones. · emerging · 73 · 2026-11-25
+- [AG-20261123-09](ideas/AG-20261123-09--agent-chosen-belief-state-folds-turn.md) **Agent-chosen belief-state folds turn long research runs into rubric-rewarded segments** — Letting a research agent rewrite its context into a four-field belief state at self-chosen checkpoints, then rewarding each resulting segment with an outcome-blind rubric plus validity gate, reaches 0.151 Brier on ForecastBench. · emerging · 72 · 2026-11-25
 
 ### coding-agents
 _Software-engineering and coding agents, repository-level work, debugging, code review._
@@ -55,12 +57,12 @@ _No ideas yet._
 ### self-improvement
 _Agents that improve themselves at run time (skill libraries, self-generated tools, experience reuse)._
 
-_No ideas yet._
+- [AG-20261125-04](ideas/AG-20261125-04--self-improving-agents-write-runtime-checks.md) **Self-improving agents write runtime checks that stay silent on most failures they can repair** — Agents that self-improve programs to high task scores write runtime checks that miss 52–89% of failures after an environment change, though the same agents repair most of those failures when called. · emerging · 77 · 2026-11-25
 
 ### agent-evaluation
 _Benchmarks, metrics and methodology for evaluating agents._
 
-_No ideas yet._
+- [AG-20261125-05](ideas/AG-20261125-05--retries-raise-cost-per-completion-because.md) **Retries raise cost per completion because easy tasks leave the pool first** — Because easy tasks succeed and leave first, each extra same-task retry draws from a harder task pool, so cost per completion rises above one-shot cost. · emerging · 69 · 2026-11-25
 
 ### agent-safety-security
 _Prompt injection, sandboxing, monitoring, oversight, reliability and misuse of agents._

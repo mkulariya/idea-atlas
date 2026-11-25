@@ -13,12 +13,14 @@ scores: {novelty: 4, leverage: 4, evidence: 3, generality: 3, actionability: 4, 
 power: 72
 evidence: C
 first_seen: '2026-11-23'
-last_updated: '2026-11-23'
+last_updated: '2026-11-25'
 sources:
 - {arxiv: '2611.27286', title: Belief-State Management Meets Rubric Rewards for Agentic Forecasting, role: origin}
 related:
 - {id: PT-20261123-03, rel: alternative-to}
 - {id: AG-20261123-06, rel: combines-with}
+- {id: AG-20261125-07, rel: alternative-to}
+- {id: PT-20261125-09, rel: alternative-to}
 superseded_by: null
 ---
 
@@ -129,4 +131,6 @@ New: the agent's own fold decisions serve double duty as memory management and a
 
 ## Revision history
 <!-- Append-only. Newest first. -->
+- 2026-11-25: +relation alternative-to PT-20261125-09.
+- 2026-11-25: +relation alternative-to AG-20261125-07.
 - 2026-11-23: created from bulletin 2026-11-23 (#9).

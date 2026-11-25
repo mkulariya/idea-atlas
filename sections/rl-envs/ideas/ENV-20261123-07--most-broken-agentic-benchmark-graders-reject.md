@@ -13,12 +13,13 @@ scores: {novelty: 4, leverage: 4, evidence: 3, generality: 4, actionability: 5, 
 power: 79
 evidence: C
 first_seen: '2026-11-23'
-last_updated: '2026-11-23'
+last_updated: '2026-11-25'
 sources:
 - {arxiv: '2611.27622', title: Benchmarks' Last Exam, role: origin}
 related:
 - {id: ENV-20261123-08, rel: alternative-to}
 - {id: ENV-20261123-10, rel: extended-by}
+- {id: ENV-20261125-02, rel: alternative-to}
 superseded_by: null
 ---
 
@@ -118,6 +119,7 @@ Prior audits examined one benchmark family (label errors in MMLU, human-verified
 
 ## Revision history
 <!-- Append-only. Newest first. -->
+- 2026-11-25: +relation alternative-to ENV-20261125-02.
 - 2026-11-23: +relation extended-by ENV-20261123-10.
 - 2026-11-23: +relation alternative-to ENV-20261123-08.
 - 2026-11-23: created from bulletin 2026-11-23 (#7).
