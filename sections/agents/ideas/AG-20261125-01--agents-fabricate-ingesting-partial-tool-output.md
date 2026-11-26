@@ -13,12 +13,13 @@ scores: {actionability: 5, evidence: 4, generality: 3, leverage: 4, novelty: 4, 
 power: 79
 evidence: B
 first_seen: '2026-11-25'
-last_updated: '2026-11-25'
+last_updated: '2026-11-26'
 sources:
 - {arxiv: '2611.28341', title: 'When Tools Fail, Agents Fabricate: Silent Failure and Verification-First Oversight in Tool-Using LLM Agents', role: origin}
 related:
 - {id: AG-20261125-04, rel: alternative-to}
 - {id: AG-20261125-10, rel: alternative-to}
+- {id: AG-20261126-04, rel: combines-with}
 superseded_by: null
 ---
 
@@ -103,6 +104,7 @@ Connections: the cascade in idea 10 comes from the same paper and is the mitigat
 
 ## Revision history
 <!-- Append-only. Newest first. -->
+- 2026-11-26: +relation combines-with AG-20261126-04.
 - 2026-11-25: +relation alternative-to AG-20261125-10.
 - 2026-11-25: +relation alternative-to AG-20261125-04.
 - 2026-11-25: created from bulletin 2026-11-25 (#1).

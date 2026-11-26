@@ -13,12 +13,13 @@ scores: {novelty: 4, leverage: 4, evidence: 4, generality: 3, actionability: 4, 
 power: 77
 evidence: B
 first_seen: '2026-11-25'
-last_updated: '2026-11-25'
+last_updated: '2026-11-26'
 sources:
 - {arxiv: '2611.29807', title: 'Blind to What They Can Fix: A Detection Gap in Self-Improving Agents', role: origin}
 related:
 - {id: AG-20261125-01, rel: alternative-to}
 - {id: AG-20261125-10, rel: combines-with}
+- {id: ENV-20261126-10, rel: combines-with}
 superseded_by: null
 ---
 
@@ -99,5 +100,6 @@ Connections: it is the self-improving-agent version of idea 1: both show agents 
 
 ## Revision history
 <!-- Append-only. Newest first. -->
+- 2026-11-26: +relation combines-with ENV-20261126-10.
 - 2026-11-25: +relation combines-with AG-20261125-10.
 - 2026-11-25: created from bulletin 2026-11-25 (#4).

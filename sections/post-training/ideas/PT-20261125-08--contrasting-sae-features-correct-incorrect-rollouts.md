@@ -13,12 +13,13 @@ scores: {novelty: 4, leverage: 3, evidence: 4, generality: 3, actionability: 2, 
 power: 67
 evidence: B
 first_seen: '2026-11-25'
-last_updated: '2026-11-25'
+last_updated: '2026-11-26'
 sources:
 - {arxiv: '2611.29936', title: 'SAEPO: Sparse-Autoencoder-Guided Credit Assignment for Policy Optimization', role: origin}
 related:
 - {id: PT-20261123-03, rel: alternative-to}
 - {id: PT-20261125-03, rel: alternative-to}
+- {id: PT-20261126-05, rel: alternative-to}
 superseded_by: null
 ---
 
@@ -101,4 +102,5 @@ Connections: idea 3 argues that credit-assignment cost is what limits PG on long
 
 ## Revision history
 <!-- Append-only. Newest first. -->
+- 2026-11-26: +relation alternative-to PT-20261126-05.
 - 2026-11-25: created from bulletin 2026-11-25 (#8).

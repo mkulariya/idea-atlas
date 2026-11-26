@@ -13,11 +13,12 @@ scores: {novelty: 2, leverage: 4, evidence: 3, generality: 4, actionability: 5, 
 power: 66
 evidence: C
 first_seen: '2026-11-23'
-last_updated: '2026-11-23'
+last_updated: '2026-11-26'
 sources:
 - {arxiv: '2611.27622', title: Benchmarks' Last Exam, role: origin}
 related:
 - {id: ENV-20261123-07, rel: builds-on}
+- {id: ENV-20261126-01, rel: alternative-to}
 superseded_by: null
 ---
 
@@ -108,4 +109,5 @@ Container isolation and hidden tests are established practice (SWE-bench-style g
 
 ## Revision history
 <!-- Append-only. Newest first. -->
+- 2026-11-26: +relation alternative-to ENV-20261126-01.
 - 2026-11-23: created from bulletin 2026-11-23 (#10).

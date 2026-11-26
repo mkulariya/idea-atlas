@@ -8,16 +8,18 @@ subtopic: agent-training
 type: finding
 tags: [harness-coupling, agent-fine-tuning, scaffold-search, distribution-shift, agent-evaluation]
 aliases: [CoEvoBench, harness-weights coupling, cross-harness evaluation, harness overfitting]
-status: emerging
+status: replicated
 scores: {novelty: 4, leverage: 4, evidence: 4, generality: 3, actionability: 5, surprise: 4}
 power: 79
 evidence: B
 first_seen: '2026-11-23'
-last_updated: '2026-11-23'
+last_updated: '2026-11-26'
 sources:
 - {arxiv: '2611.27116', title: 'CoEvoBench: Can LLMs Drive Recursive Co-Evolution of Agentic Systems?', role: origin}
+- {arxiv: '2611.31427', title: 'Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training', role: replicates}
 related:
 - {id: AG-20261123-09, rel: combines-with}
+- {id: PT-20261126-03, rel: extended-by}
 superseded_by: null
 ---
 
@@ -107,9 +109,13 @@ New: a benchmark where one agent controls *both* levers under a shared budget, a
 
 ## Evidence log
 <!-- Append-only. Newest first. One line per source. -->
+- 2026-11-26 · replicates · [Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training](https://arxiv.org/abs/2611.31427) — Second independent group reproduces harness interference while decomposing it: fc-only distillation drives BFCL-MT json from 33.5% to 0.1%, rehearsal on fc alone takes json to 0.0%, and the worst single-harness specialist falls below half of base on the held-out harness in four of six settings.
 - 2026-11-23 · origin · [CoEvoBench: Can LLMs Drive Recursive Co-Evolution of Agentic Systems?](https://arxiv.org/abs/2611.27116) — Cross-evaluating 35 agent systems trained through their own evolved harness, mean test score fell from 19.8% under that harness to 2.6% under the reference harness, while Instruct rose from 30.2% to 37.8%.
 
 ## Revision history
 <!-- Append-only. Newest first. -->
+- 2026-11-26: A second independent group (Lee et al., 2611.31427) reproduces harness interference in distillation and names interface competence as the cause; emerging → replicated.
+- 2026-11-26: +evidence from 2611.31427 (replicates).
+- 2026-11-26: +relation extended-by PT-20261126-03.
 - 2026-11-23: +relation combines-with AG-20261123-09.
 - 2026-11-23: created from bulletin 2026-11-23 (#6).

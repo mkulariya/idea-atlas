@@ -13,7 +13,7 @@ scores: {novelty: 4, leverage: 4, evidence: 4, generality: 3, actionability: 5, 
 power: 78
 evidence: B
 first_seen: '2026-11-23'
-last_updated: '2026-11-25'
+last_updated: '2026-11-26'
 sources:
 - {arxiv: '2611.27068', title: Decision Models Are General-Purpose Process Reward Models, role: origin}
 related:
@@ -21,6 +21,7 @@ related:
 - {id: AG-20261123-09, rel: alternative-to}
 - {id: PT-20261125-03, rel: alternative-to}
 - {id: PT-20261125-08, rel: alternative-to}
+- {id: PT-20261126-05, rel: alternative-to}
 superseded_by: null
 ---
 
@@ -127,6 +128,7 @@ The precise difference: a zero-shot, label-free step score from a model that ret
 
 ## Revision history
 <!-- Append-only. Newest first. -->
+- 2026-11-26: +relation alternative-to PT-20261126-05.
 - 2026-11-25: +relation alternative-to PT-20261125-08.
 - 2026-11-25: +relation alternative-to PT-20261125-03.
 - 2026-11-23: +relation alternative-to AG-20261123-09.

@@ -13,11 +13,12 @@ scores: {novelty: 3, leverage: 4, evidence: 4, generality: 3, actionability: 5, 
 power: 73
 evidence: B
 first_seen: '2026-11-25'
-last_updated: '2026-11-25'
+last_updated: '2026-11-26'
 sources:
 - {arxiv: '2611.28244', title: 'Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents', role: origin}
 related:
 - {id: AG-20261123-09, rel: alternative-to}
+- {id: PT-20261126-08, rel: alternative-to}
 superseded_by: null
 ---
 
@@ -105,4 +106,5 @@ Connections: idea 9 attacks context thrashing through weights (a trained model s
 
 ## Revision history
 <!-- Append-only. Newest first. -->
+- 2026-11-26: +relation alternative-to PT-20261126-08.
 - 2026-11-25: created from bulletin 2026-11-25 (#7).
