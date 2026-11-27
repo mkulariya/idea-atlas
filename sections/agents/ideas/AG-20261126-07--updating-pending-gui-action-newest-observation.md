@@ -13,11 +13,12 @@ scores: {actionability: 4, evidence: 4, generality: 3, leverage: 4, novelty: 4, 
 power: 77
 evidence: B
 first_seen: '2026-11-26'
-last_updated: '2026-11-26'
+last_updated: '2026-11-27'
 sources:
 - {arxiv: '2611.31522', title: 'One Step, Four Clocks: How GUI Agents Fall Out of Step', role: origin}
 related:
 - {id: AG-20261126-04, rel: combines-with}
+- {id: PT-20261127-09, rel: alternative-to}
 superseded_by: null
 ---
 
@@ -112,4 +113,5 @@ Existing timing work includes benchmarks with timing-specific tasks, newer-evide
 
 ## Revision history
 <!-- Append-only. Newest first. -->
+- 2026-11-27: +relation alternative-to PT-20261127-09.
 - 2026-11-26: created from bulletin 2026-11-26 (#7).

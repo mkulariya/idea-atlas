@@ -13,12 +13,13 @@ scores: {novelty: 4, leverage: 4, evidence: 3, generality: 3, actionability: 4, 
 power: 73
 evidence: C
 first_seen: '2026-11-26'
-last_updated: '2026-11-26'
+last_updated: '2026-11-27'
 sources:
 - {arxiv: '2611.32508', title: 'RecurSciBench: Benchmarking Recursive Self-Improvement in Data-Driven Scientific Research', role: origin}
 related:
 - {id: AG-20261126-09, rel: alternative-to}
 - {id: AG-20261125-04, rel: combines-with}
+- {id: AG-20261127-06, rel: alternative-to}
 superseded_by: null
 ---
 
@@ -113,4 +114,5 @@ Prior RSI work (the four systems evaluated here) mostly reports improvement on t
 
 ## Revision history
 <!-- Append-only. Newest first. -->
+- 2026-11-27: +relation alternative-to AG-20261127-06.
 - 2026-11-26: created from bulletin 2026-11-26 (#10).

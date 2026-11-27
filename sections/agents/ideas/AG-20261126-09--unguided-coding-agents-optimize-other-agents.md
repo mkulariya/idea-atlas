@@ -13,11 +13,14 @@ scores: {novelty: 3, leverage: 4, evidence: 4, generality: 3, actionability: 5, 
 power: 74
 evidence: B
 first_seen: '2026-11-26'
-last_updated: '2026-11-26'
+last_updated: '2026-11-27'
 sources:
 - {arxiv: '2611.31794', title: 'AGL-SKILL: Coding Harnesses as Agentic Optimizers', role: origin}
 related:
 - {id: ENV-20261126-10, rel: alternative-to}
+- {id: AG-20261127-06, rel: alternative-to}
+- {id: AG-20261127-08, rel: alternative-to}
+- {id: AG-20261127-11, rel: alternative-to}
 superseded_by: null
 ---
 
@@ -112,5 +115,8 @@ Closest work named in the paper: SkillOpt and GEPA-style score-driven skill opti
 
 ## Revision history
 <!-- Append-only. Newest first. -->
+- 2026-11-27: +relation alternative-to AG-20261127-11.
+- 2026-11-27: +relation alternative-to AG-20261127-08.
+- 2026-11-27: +relation alternative-to AG-20261127-06.
 - 2026-11-26: +relation alternative-to ENV-20261126-10.
 - 2026-11-26: created from bulletin 2026-11-26 (#9).
